@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    padding:0;
+    background:#dbefff;
+    font-family:Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.card-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.id-card{
+    width:320px;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    border:3px solid #d9480f;
+
+    box-shadow:0 4px 15px rgba(0,0,0,0.2);
+}
+.card-header{
+    background:#d9480f;
+    color:white;
+
+    text-align:center;
+    padding:15px;
+}
+.logo{
+    width:60px;
+    height:60px;
+
+    border-radius:50%;
+}
+.photo-wrap{
+    text-align:center;
+    margin-top:15px;
+}
+.photo{
+    width:110px;
+    height:110px;
+
+    border-radius:50%;
+    border:4px solid #d9480f;
+
+    object-fit:cover;
+}
+.card-body{
+    padding:20px;
+    text-align:center;
+}
+.student-name{
+    color:#d9480f;
+    margin-bottom:5px;
+}
+.college{
+    font-size:14px;
+    color:gray;
+}
+.details{
+    text-align:left;
+    margin-top:15px;
+
+    line-height:1.8;
+}
+.id-line{
+    margin-top:10px;
+    font-size:15px;
+}
+.barcode{
+    height:40px;
+    margin-top:15px;
+
+    background:
+    repeating-linear-gradient(
+        90deg,
+        black 0px,
+        black 3px,
+        white 3px,
+        white 6px
+    );
+}
+.card-footer{
+    background:#d9480f;
+    color:white;
+
+    text-align:center;
+    padding:10px;
+
+    font-size:14px;
+}
